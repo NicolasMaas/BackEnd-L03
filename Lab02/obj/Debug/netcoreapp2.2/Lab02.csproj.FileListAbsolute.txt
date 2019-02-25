@@ -60,3 +60,4 @@ C:\Users\nicol\Documents\GithubHowest\back-end-dev\BackEnd-L03\Lab02\obj\Debug\n
 C:\Users\nicol\Documents\GithubHowest\back-end-dev\BackEnd-L03\Lab02\obj\Debug\netcoreapp2.2\Lab02.dll
 C:\Users\nicol\Documents\GithubHowest\back-end-dev\BackEnd-L03\Lab02\obj\Debug\netcoreapp2.2\Lab02.pdb
 C:\Users\nicol\Documents\GithubHowest\back-end-dev\BackEnd-L03\Lab02\obj\Debug\netcoreapp2.2\Lab02.csproj.CopyComplete
+C:\Users\nicol\Documents\GithubHowest\back-end-dev\BackEnd-L03\Lab02\obj\Debug\netcoreapp2.2\Razor\Views\Teacher\IndexAsync.g.cshtml.cs

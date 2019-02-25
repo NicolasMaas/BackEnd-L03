@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace Lab02.Models
 {
-    public class Teacher
+    public class Teacher : Person
     {
 
         // public int EducationId { get; set; }
 
-        public ICollection<Education> Educations { get; set; }
+        public ICollection<TeachersEducations> TeachersEducations { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace Lab02.Models
         public string Email { get; set; }
         public DateTime Birthday { get; set; }
         public string Password { get; set; }
-        public Uri ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
 
         public enum GenderType
         {

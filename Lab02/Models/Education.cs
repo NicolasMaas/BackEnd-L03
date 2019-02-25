@@ -14,6 +14,6 @@ namespace Lab02.Models
 
         //navigatie property
         public ICollection<Student> Students { get; set; }
-        public ICollection<Teacher> Teachers { get; set; }
+        public ICollection<TeachersEducations> TeachersEcuations { get; set; }
     }
 }
