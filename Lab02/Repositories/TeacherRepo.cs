@@ -19,7 +19,8 @@ namespace Lab02.Repositories
 
         public async Task<IEnumerable<Teacher>> GetAllAsync()
         {
-            return await context.Teachers.OrderBy(t => t.Name).ToListAsync();
+            // return await context.Teachers.OrderBy(t => t.Name).ToListAsync();
+            return await context.Teachers.OrderBy(t => t.Name).Include(t => t.TeachersEducations).ThenInclude(te => te.Education).ToListAsync();
         }
 
         public async Task<Teacher> GetTeacherForId(int id)

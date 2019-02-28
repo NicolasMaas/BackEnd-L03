@@ -23,6 +23,12 @@ namespace Lab02.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //composite key
-            modelBuilder.Entity<TeachersEducations>().HasKey(t => new { t.TeacherId, t.EducationId });} 
+            modelBuilder.Entity<TeachersEducations>().HasKey(t => new { t.TeacherId, t.EducationId });
+
+            //tabelnamen aanpassen
+            modelBuilder.Entity<Teacher>().Property(t => t.Birthday).HasColumnName("DateOfBirth");
+            modelBuilder.Entity<Teacher>().Ignore(t => t.ImageUrl);
+
         }
+    }
 }

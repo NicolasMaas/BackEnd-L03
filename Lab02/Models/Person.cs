@@ -23,8 +23,5 @@ namespace Lab02.Models
         }
 
         public GenderType Gender { get; set; }
-
-
-
     }
 }

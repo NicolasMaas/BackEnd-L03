@@ -38,7 +38,14 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
-            </td>
+
+                <ul>
+                    @foreach (var teacheredu in item.TeachersEducations)
+                    {
+                        <li>@teacheredu.Education.Name</li>
+                    }
+                </ul>
+</td>
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
